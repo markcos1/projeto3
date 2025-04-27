@@ -13,9 +13,9 @@ body{
 .navbar-brand:hover{
     color: #fff;
 }
-.navbar-brand{
-    font-family: tagesschrift, cursive;
-}
 .navbar-toggler{
     background-color: #fff;
+}
+.section-title{
+    font-family: tagesschrift, cursive;
 }

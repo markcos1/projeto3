@@ -12,34 +12,34 @@
     <link rel="stylesheet" href="./main.css" />
 </head>
 <body>
-    <header class="navbar navbar-expand-lg sticky-top p-4">
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
         <div class="container">
-            <h1 class="navbar-brand m-0">Metalúrgica Sobral</h1>
+            <h1 class="navbar-brand m-0 section-title">Metalúrgica Sobral</h1>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="menu-navegacao">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao" >
                 <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item fw-bold">
-                        <a href="" class="nav-link active">
+                        <a href="#sobre-a-loja" class="nav-link">
                             <i class="bi bi-house-door me-1"></i>
                             Sobre a empresa
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="" class="nav-link">
+                        <a href="#" class="nav-link">
                             <i class="bi bi-gear me-1"></i>
                             Serviços
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="" class="nav-link">
+                        <a href="#" class="nav-link">
                             <i class="bi bi-bucket me-1"></i>
                             Produtos
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="" class="nav-link">
+                        <a href="#" class="nav-link">
                             <i class="bi bi-chat-left-text me-1"></i>
                             Trabalhe conosco
                         </a>
@@ -48,6 +48,48 @@
             </nav>
         </div>
     </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        <img class="d-block w-100" src="./Imagens/warehouse-5635000_1280.jpg" alt="Ferragens prontas" />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img class="d-block w-100" src="./Imagens/welder-5136380_1280.jpg" alt="Soldagem" />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img class="d-block w-100" src="./Imagens/worker-5736096_1280.jpg" alt="Acabamento" />
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type= "button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type= "button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <img src="./Imagens/dobra-de-chapa.jpg" class="d-block w-100 rounded" alt="imagem ilustrativa" />
+                            <h2 class="section-title">Sobre a empresa</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae repellat at qui quod! Ipsum eos temporibus qui quibusdam nostrum! Labore quibusdam modi quae sit consectetur tempora cum quos rerum praesentium?</p>
+                            <h3 class="section-title">Nossa politíca</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi maxime a ullam amet, nemo provident, neque dolorem repellat consectetur itaque in rerum expedita mollitia rem recusandae earum nam. Vel, itaque!</p>
+                        </div>
+                        <div class="col-lg-7"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 </body>
