@@ -4,11 +4,11 @@ body{
 .navbar{
     background-color: gray;
 }
-.nav .nav-link.active{
+#cabecalho .nav .nav-link.active{
     background-color: white;
     color: gray;
 }
-.nav .nav-link,
+#cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover{
     color: #fff;
@@ -18,4 +18,16 @@ body{
 }
 .section-title{
     font-family: tagesschrift, cursive;
+}
+#sobre-a-loja{
+    background-color: burlywood;
+}
+#servicos{
+    background-color: rgb(161, 159, 159);
+}
+#produtos{
+    background-color: burlywood;
+}
+.text-colored{
+    color: dimgray;
 }
