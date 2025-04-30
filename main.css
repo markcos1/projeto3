@@ -4,7 +4,8 @@ body{
 .navbar{
     background-color: gray;
 }
-#cabecalho .nav .nav-link.active{
+#cabecalho .nav .nav-link.active,
+#trabalhe-conosco button{
     background-color: white;
     color: gray;
 }
@@ -30,4 +31,11 @@ body{
 }
 .text-colored{
     color: dimgray;
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links a{
+    text-decoration: none;
 }
