@@ -30,7 +30,7 @@ body{
     background-color: burlywood;
 }
 .text-colored{
-    color: dimgray;
+    color: #fff;
 }
 .social-links li{
     list-style: none;
@@ -38,4 +38,21 @@ body{
 }
 .social-links a{
     text-decoration: none;
+}
+#trabalhe-conosco button{
+    background-color: green;
+    color: white;
+    
+}
+#trabalhe-conosco{
+    background-color: rgba(22, 21, 21, 0.801);
+}
+.carousel-item img{
+    height: 600px;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
 }
