@@ -47,8 +47,16 @@ body{
 #trabalhe-conosco{
     background-color: rgba(22, 21, 21, 0.801);
 }
+#trabalhe-conosco textarea{
+    resize: none;
+}
 .carousel-item img{
     height: 600px;
+}
+#rodape{
+    background-color: gray;
+    padding: 15px 0;
+    width: 100%;
 }
 
 @media (max-width: 767px) {
